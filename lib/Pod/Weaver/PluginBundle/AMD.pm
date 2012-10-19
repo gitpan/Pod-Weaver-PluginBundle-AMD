@@ -2,11 +2,13 @@ use strict;
 use warnings;
 
 package Pod::Weaver::PluginBundle::AMD;
+# git description: v0.001-2-g1c145c4
+
 BEGIN {
   $Pod::Weaver::PluginBundle::AMD::AUTHORITY = 'cpan:AMD';
 }
 {
-  $Pod::Weaver::PluginBundle::AMD::VERSION = '0.001';
+  $Pod::Weaver::PluginBundle::AMD::VERSION = '4.1.0';
 }
 # ABSTRACT: Document your modules like AMD does
 
@@ -110,19 +112,9 @@ This plugin bundle is equivalent to the following weaver.ini file:
 
 =for Pod::Coverage mvp_bundle_config
 
-=head1 AUTHORS
-
-=over 4
-
-=item *
-
-Florian Ragwitz
-
-=item *
+=head1 AUTHOR
 
 AMD OSRC Tapper Team <tapper@amd64.org>
-
-=back
 
 =head1 COPYRIGHT AND LICENSE
 

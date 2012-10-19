@@ -10,10 +10,8 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Document your modules like AMD does",
-  "AUTHOR" => "Florian Ragwitz, AMD OSRC Tapper Team <tapper\@amd64.org>",
-  "BUILD_REQUIRES" => {
-    "Test::More" => 0
-  },
+  "AUTHOR" => "AMD OSRC Tapper Team <tapper\@amd64.org>",
+  "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -22,14 +20,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "open_source",
   "NAME" => "Pod::Weaver::PluginBundle::AMD",
   "PREREQ_PM" => {
-    "Pod::Elemental::Transformer::List" => 0,
     "Pod::Weaver::Config::Assembler" => 0,
-    "Pod::Weaver::Plugin::Encoding" => 0,
     "namespace::clean" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "4.1.0",
   "test" => {
     "TESTS" => "t/*.t"
   }
